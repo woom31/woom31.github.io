@@ -1,0 +1,102 @@
+/* DESKTOP*/
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.feed {
+    display: block;
+    max-width: 558px;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #dddddd;
+    margin: 10px auto 0px auto;
+}
+.feed-top {
+    display: flex;
+    width: 100%;
+}
+.top-img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.top-profile {
+    display: block;
+    width: calc(100% - 60px);
+    height: 60px;
+}
+.top-name {
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    /* background-color: #99ffff; */
+}
+.top-time {
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #909090;
+}
+.feed-body {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 16px;
+}
+.body-content{
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.body-image{
+    display: inline;
+    width: 100%;
+}
+.feed-bottom {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    /* background-color: #ff9999; */
+    margin-top: 8px;
+}
+.feed-bottom button {
+    display: block;
+    width: 33.3%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.icons {
+    margin-top: 8px;
+    color: #000;
+}
