@@ -1,0 +1,500 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: block;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 9999;
+}
+#logo {
+    display: block;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 4vw;
+}
+.toMain {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.teamLogo {
+    width: 146px;
+    height: 60px;
+}
+.dobj1 {
+    display: block;
+    margin-top: 20px;
+}
+.dobj1 img {
+    width: 280px;
+}
+/* .dobj2 {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    left: 4vw;
+}
+.dobj2 img {
+    width: 260px;
+
+} */
+nav {
+    position: absolute;
+    top: 40px;
+    right: 6vw;
+    font-size: 18px;
+}
+nav ul li {
+    float: left;
+    margin-left: 2vw;
+}
+.navBtn {
+    color: #a8a8a8;
+    padding: 6px 8px;
+}
+.navBtn:hover {
+    color: #ffffff;
+}
+
+.navSel {
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: 5px solid #ffffff;
+}
+
+/* ======================================= */
+
+section {
+    display: block;
+    width: 100vw;
+    background-color: #202020;
+    color: #ffffff;
+}
+.contents {
+    position: relative;
+}
+.secTitle {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#main {
+    display: block;
+    position: absolute;
+    height: 100vh;
+    z-index: 1000;
+    top: 0;
+}
+.mainVideo {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    background-color: #000000;
+}
+video {
+    display: inline-block;
+    height: 100vh;
+}
+.mainDobj img {
+    width: 100%;
+}
+.mainDobj1 {
+    width: 260px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 4vw;
+}
+.mainDobj2 {
+    width: 380px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 4vw;
+}
+.mainDobj3 {
+    width: 260px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    right: 4vw;
+}
+.mainDobj4 {
+    width: 500px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 250px);
+}
+#about {
+    display: flex;
+    width: calc(90vw - 320px);
+    height: 100vh;
+    padding: 0 10vw 0 0;
+    margin-left: 320px;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/aboutBg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutTitle {
+    margin-bottom: 12px;
+}
+.aboutTitle, .aboutSlogan, .aboutText {
+    margin-left: 4vw;
+}
+.secSub {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: #cccccc;
+}
+.secText {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #bbbbbb;
+}
+.secText div {
+    margin-bottom: 12px;
+}
+
+#object {
+    display: flex;
+    width: calc(86vw - 320px);
+    height: 100vh;
+    padding: 0 10vw 0 4vw;
+    margin-left: 320px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.objectTitle {
+    margin-bottom: 12px;
+}
+.objectTitle, .objectSubtitle, .objectText {
+    position: relative;
+    z-index: 900;
+}
+.objectText {
+    text-align: right;
+}
+.objectImg {
+    display: block;
+    width: 45vw;
+    position: absolute;
+    left: -10vw;
+    bottom: -10vh;
+    opacity: 1;
+}
+.objectImg img {
+    width: 100%;
+}
+
+
+#making {
+    display: block;
+    width: 100%;
+    height: 200vh;
+}
+.makingFilm {
+    display: block;
+    width: calc(86vw - 320px);
+    height: 70vh;
+    padding: 0vh 10vw 10vh 4vw;
+    margin-left: 320px;
+    position: relative;
+}
+.makingFilmTitle {
+    width: 100%;
+    position:absolute;
+    z-index: 100;
+    top: 15vh;
+}
+.makingFilmVideo {
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 22.4vh;
+    right: 10vw;
+    z-index: 99;
+}
+.makingFilmVideo video {
+    width: 100%;
+    height: auto;
+}
+
+.makingOrder {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10vw 0 4vw;
+}
+.makingOrderTitle {
+    display: block;
+    position: absolute;
+    top: 500px;
+    z-index: 100;
+}
+.makingOrderSlide {
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 100vw;
+    /* height: 70vh; */
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+.slideWrapper {
+    display: block;
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    margin-left: 62vw;
+}
+.makingOrderSlide ul {
+    width: 140%;
+    height: 100%;
+    /* margin-left: -112%;  */
+}
+.makingOrderSlide ul li {
+    display: block;
+    width: 19%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+.slideBox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    /* opacity: 0.3; */
+}
+.slideBox.sel {
+    opacity: 1;
+}
+.slideNum {
+    display: block;
+    width: 100%;
+    height: 12%;
+    font-size: 3vw;
+    font-weight: 700;
+}
+.slideTitle {
+    display: block;
+    width: 100%;
+    height: 11%;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.slideText {
+    display: block;
+    width: 100%;
+    height: 21%;
+    font-size: 1vw;
+    font-weight: 300;
+    line-height: 1.4vw;
+    color: #dddddd;
+}
+.slideImg {
+    display: block;
+    width: 100%;
+}
+.slideBtnBox {
+    display: flex;
+    position: absolute;
+    left: 4vw;
+    top: 720px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.slideBtn {
+    display: block;
+    width: 50px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #cccccc;
+    animation: slideBtnHoverOut 1s;
+    /* margin-right: 110px; */
+}
+.slideBtn p {
+    width: 100%;
+    height: 24px;
+}
+.slideBtnUnderline {
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-top: 2px;
+    background-color: #ffffff;
+    opacity: 0;
+    animation: slideBtnHoverOut2 1s;
+}
+.slideBtn:hover {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    animation: slideBtnHover 1s;
+    /* margin-right: 110px; */
+}
+.slideBtn:hover .slideBtnUnderline {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 2px;
+    background-color: #ffffff;
+    opacity: 1;
+    animation: slideBtnHover2 1s
+}
+@keyframes slideBtnHover {
+    0% {
+        color: #cccccc;
+    }
+    100% {
+        color: #ffffff;
+    }
+}
+@keyframes slideBtnHover2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes slideBtnHoverOut {
+    0% {
+        color: #ffffff;
+    }
+    100% {
+        color: #cccccc;
+    }
+}
+@keyframes slideBtnHoverOut2 {
+    0% {
+        width: 100%;
+        opacity: 1;
+    }
+    100% {
+        width: 0%;
+        opacity: 1;
+    }
+}
+.slideBtnLine {
+    display: inline-block;
+    width: 94px;
+    height: 2px;
+    margin: 0 10px;
+    margin-top: -4px;
+    background-color: #cccccc;
+}
+
+#team {
+    display: flex;
+    width: 74vw;
+    height: 100vh;
+    padding: 0 10vw 0 16vw;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.teamTitle {
+    text-align: right;
+    margin-bottom: 2vw;
+}
+.teamList {
+    width: 74vw;
+}
+.teamList ul {
+    display: flex;
+}
+.teamList ul li {
+    width: 20%;
+    margin: 0 1%;
+}
+.teamList ul li:first-child {
+    margin-left: 0;
+}
+.teamList ul li:last-child {
+    margin-right: 0;
+}
+.teamImg img {
+    width: 100%;
+}
+.teamList ul li:hover .teamImg img {
+    filter: brightness(120%);
+}
+.teamName dl {
+    margin-top: 0.6vw;
+    text-align: center;
+}
+.teamName dl dt {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #dddddd;
+}
+.teamList ul li:hover .teamName dl dt {
+    color: #ffffff;
+}
+.teamName dl dd {
+    font-size: 0.8vw;
+    font-weight: 300;
+    margin-top: 6px;
+    color: #cccccc;
+}
+.teamList ul li:hover .teamName dl dd {
+    color: #ffffff;
+}
+.teamThanks {
+    display: flex;
+    margin: 4vw 0 2.5vw 0;
+    color: #9e9e9e;
+}
+.thanksSub {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-right: 1vw;
+}
+.thanksText {
+    font-size: 0.8vw;
+    font-weight: 200;
+    line-height: 1.2vw;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: #000000;
+    color: #aaaaaa;
+    font-size: 0.8vw;
+    font-weight: 200;
+}
+.copyright {
+    display: flex;
+    width: calc(50vw - 80px);
+    margin-left: 80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.credit {
+    display: flex;
+    width: calc(50vw - 80px);
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 1.2vw;
+}
