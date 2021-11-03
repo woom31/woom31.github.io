@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ctrl+Z ; 빛났던 밤들</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="css/font.css"/>
+    <link type="text/css" rel="stylesheet" href="css/index_d.css"/>
+    <!-- <link type="text/css" rel="stylesheet" href="css/index_m.css"/> -->
+    <script type="text/javascript" src="./js/libs/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/libs/jquery-ui.min.js"></script>
+    <script src="./js/libs/gsap.min.js"></script> <!-- GreenSock -->
+    <script src="./js/libs/TweenMax.min.js"></script>
+    <script src="./js/libs/Draggable.min.js"></script> Draggable
+    <script src="./js/libs/EaselPlugin.min.js"></script>
+    <script src="./js/libs/ScrollToPlugin.min.js"></script>
+    <script src="./js/libs/ScrollTrigger.min.js"></script>
+    <script src="./js/libs/ScrollMagic.min.js"></script>
+    <script src="./js/libs/debug.addIndicators.min.js"></script>
+    <script src="./js/libs/animation.gsap.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <!-- header -->
+    <header id="header" class="header">
+        <div class="header-nav">
+            <div class="nav-area">
+                <div class="nav-left">
+                    <div class="left-btn left-btn1">
+                        <a href="../index.html" class="project-btn nav-btn">Project</a>
+                    </div>
+                    <!-- <div class="left-btn left-btn2">
+                        <a href="#" class="left-team-btn nav-btn">Team. 1212</a>
+                    </div> -->
+                    <div class="left-btn left-btn3">
+                        <a href="#" class="video-btn nav-btn">Video</a>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="right-btn">
+                        <a href="#" class="right-team-btn nav-btn">Team. 1212</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="header-line"><!-- 2px solid #7f7f7f --></div>
+        </div>
+    </header>
+    <!-- section -->
+    <section id="section" class="section">
+        <!-- <a href="../index.html#comeback">ajldfjlk;aj</a> -->
+        <div id="intro" class="intro section-wrap">
+
+        </div>
+        <div id="map" class="map">
+            
+        </div>
+        <div id="experience" class="experience">
+            <div class="experience-ui">
+                <button class="back-btn">
+                    <img src="./img/back.png" alt="back" width="80px">
+                </button>
+                <div class="experience-btn-list">
+                    <button class="retry-btn">
+                    <img src="./img/re.png" alt="retry" width="50px">
+                    </button>
+                    <a href="../index.html#comeback" class="close-btn">
+                    <img src="./img/close.png" alt="close" width="30px">
+                    </a>
+                    <button class="vrvideo-btn">
+                    <img src="./img/play.png" alt="VR video" width="30px">
+                    </button>
+                </div>
+            </div>
+            <div class="experience-area">
+                <div id="mission1" class="mission1 mission">
+                    <div class="mission-title">
+                        <div class="mission-num machina">MISSION 01</div>
+                        <div class="mission-text-ko">노트북을 잡고 위로 열어보자!</div>
+                        <div class="mission-text-en">Let's open the laptop.</div>
+                    </div>
+                    <div class="mission-container">
+                        <div class="drag-container">
+                            <div class="drag-button"></div>
+                            <div class="drag-line"></div>
+                            <div class="drag-target"></div>
+                        </div>
+                        <div class="laptop-container">
+                            <div class="mockup mockup-macbook loaded opened">
+                              <div class="part top">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-top.svg" alt="" class="top">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+                                
+                                <img src="./img/laptop_bg.png" alt="" class="laptop-bg">
+                          
+                               
+                              </div>
+                              <div class="part bottom">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-bottom.svg" alt="" class="bottom">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mission2" class="mission2 mission">
+                    <div class="mission-title">
+                        <div class="mission-num machina">MISSION 02</div>
+                        <div class="mission-text-ko">닫기 버튼을 눌러 문제를 해결해주자!</div>
+                        <div class="mission-text-en">Let's press the close button.</div>
+                    </div>
+                    <div class="mission-container">
+                        <div class="error-container">
+                            <div class="error-window">
+                                <div class="window-top">
+                                    <button class="close">x</button>
+                                </div>
+                                <div class="error-text">ERROR</div>
+                            </div>
+                            <div class="error-window">
+                                <div class="window-top">
+                                    <button class="close">x</button>
+                                </div>
+                                <div class="error-text">ERROR</div>
+                            </div>
+                            <div class="error-window">
+                                <div class="window-top">
+                                    <button class="close">x</button>
+                                </div>
+                                <div class="error-text">ERROR</div>
+                            </div>
+                            <div class="error-window">
+                                <div class="window-top">
+                                    <button class="close">x</button>
+                                </div>
+                                <div class="error-text">ERROR</div>
+                            </div>
+                            <div class="error-window">
+                                <div class="window-top">
+                                    <button class="close">x</button>
+                                </div>
+                                <div class="error-text">ERROR</div>
+                            </div>
+                            <div class="error-complete">
+                                오류가 해결되었습니다.
+                            </div>
+                        </div>
+                        <div class="laptop-container">
+                            <div class="mockup mockup-macbook loaded opened">
+                              <div class="part top">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-top.svg" alt="" class="top">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+                                
+                                <img src="./img/laptop_bg.png" alt="" class="laptop-bg">
+                          
+                                <!-- <video autoplay>
+                                  <source src="https://d1xm195wioio0k.cloudfront.net/images/video/support.mp4" type="video/mp4">
+                                </video> -->
+                              </div>
+                              <div class="part bottom">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+                                <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-bottom.svg" alt="" class="bottom">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mission3" class="mission3 mission">
+                    <div class="mission-title">
+                        <div class="mission-num machina">MISSION 03</div>
+                        <div class="mission-text-ko">작업물이 날아가지 않게 저장하기 잊지마</div>
+                        <div class="mission-text-en">Don't forget to save it!</div>
+                    </div>
+                    <div class="mission-container">
+                        <div class="keyboard-container">
+                            <button class="content-btn btn-ctrl">Ctrl</button>
+			                <button class="content-btn btn-s">S<span class="key-ko">ㄴ</span></button>
+                            <img src="./img/keyboard.png" alt="" width="1200px">
+                        </div>
+                        <div class="save-complete">
+                            과제를 저장하였습니다.
+                        </div>
+                    </div>
+                </div>
+                <div id="mission4" class="mission4 mission">
+                    <div class="mission-title">
+                        <div class="mission-num machina">MISSION 04</div>
+                        <div class="mission-text-ko">친구가 부탁한 과제를 대신 제출해주자</div>
+                        <div class="mission-text-en">Let's summit the assignment!</div>
+                    </div>
+                    <div class="mission-container">
+                        <div class="holder">
+                            <ul>
+                            <li><a draggable="true" href="" id="one">
+                                <img src="img/indesign.png" width="150%">
+                            </a></li>
+                            <li><a draggable="true" href="" id="two">
+                                <img src="img/photoshop.png" width="150%">
+                            </a></li>
+                            <li><a draggable="true" href="" id="three">
+                                <img src="img/aftereffect.png" width="150%">
+                            </a></li>
+                            <li><a draggable="true" href="" id="four">
+                                <img src="img/illust.png" width="150%">
+                            </a></li>
+                            <!-- <li><a draggable="true" href="" id="five">five</a></li> -->
+                            </ul>
+                            <div id="bin">
+                                <img src="img/folder.png" width="150%">
+                            </div>
+                        </div>
+                        <div class="submit-complete">
+                            과제를 제출했습니다.
+                        </div>
+                    </div>
+                </div>
+                <div id="mission5" class="mission5 mission">
+                    <div class="mission-title">
+                        <div class="mission-num machina">MISSION 05</div>
+                        <div class="mission-text-ko">친구를 따라 테라스로 나가자!</div>
+                        <div class="mission-text-en">Follow your friend to the terrace!</div>
+                    </div>
+                    <div class="mission-container">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer"></footer>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
