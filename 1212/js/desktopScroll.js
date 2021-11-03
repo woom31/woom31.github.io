@@ -443,19 +443,24 @@ var desktopScript = function(){
                     left: "-100vw",
                     ease: Linear.easeNone
                 }),
-                TweenMax.to(".cs-pic2", 9, {
-                    delay: 2.2,
-                    left: "-100vw",
+                TweenMax.to(".cs-pic2", 11, {
+                    delay: 1.5,
+                    left: "-70vw",
                     ease: Linear.easeNone
                 }),
-                TweenMax.to(".cs-pic3", 11, {
-                    delay: 3.2,
-                    left: "-100vw",
+                TweenMax.to(".cs-pic3", 12, {
+                    delay: 2.7,
+                    left: "-40vw",
                     ease: Linear.easeNone
                 }),
-                TweenMax.to(".cs-pic4", 12, {
+                TweenMax.to(".cs-pic4", 13, {
                     delay: 4.5,
-                    left: "-100vw",
+                    left: "-20vw",
+                    ease: Linear.easeNone
+                }),
+                TweenMax.to(".cs-pic5", 15, {
+                    delay: 6,
+                    left: "20vw",
                     ease: Linear.easeNone
                 }),
             ])
@@ -477,17 +482,22 @@ var desktopScript = function(){
                 }),
                 TweenMax.to(".tr-pic2", 12, {
                     delay: 1,  
-                    left: "-100vw",
+                    left: "-90vw",
                     ease: Linear.easeNone
                 }),
                 TweenMax.to(".tr-pic3", 14, {
-                    delay: 2.8,
-                    left: "-100vw",
+                    delay: 2,
+                    left: "-75vw",
                     ease: Linear.easeNone
                 }),
-                TweenMax.to(".tr-pic4", 16, {
-                    delay: 4.5,
-                    left: "-100vw",
+                TweenMax.to(".tr-pic4", 14, {
+                    delay: 3,
+                    left: "-60vw",
+                    ease: Linear.easeNone
+                }),
+                TweenMax.to(".tr-pic5", 16, {
+                    delay: 4,
+                    left: "-0vw",
                     ease: Linear.easeNone
                 }),
             ])
@@ -619,74 +629,6 @@ var desktopScript = function(){
             .setTween(gotoMotion2)
             .addTo(controller)
 
-
-
-            // var gotoMotion3 = new TimelineMax().add([
-            //     TweenMax.to(".project-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#000000",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".video-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#000000",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".right-team-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#000000",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".goto-title", 0.1, {
-            //         color: "#000000",
-            //         ease: Linear.easeNone,
-            //     }),
-            // ])
-
-            // var gotoMotionScroll3 = new ScrollMagic.Scene({
-            //     triggerElement: "#goto",
-            //     offset: 430,
-            //     duration: 50,
-            //     triggerHook: 0.1
-            // })
-            // .setTween(gotoMotion3)
-            // .addTo(controller)
-
-
-            // var gotoMotion4 = new TimelineMax().add([
-            //     TweenMax.to(".project-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#ffffff",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".video-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#ffffff",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".right-team-btn", 0.1, {
-            //         delay: 0.2,
-            //         color: "#ffffff",
-            //         ease: Linear.easeNone,
-            //     }),
-            //     TweenMax.to(".goto-title", 0.1, {
-            //         color: "#ffffff",
-            //         ease: Linear.easeNone,
-            //     }),
-            // ])
-
-            // var gotoMotionScroll4 = new ScrollMagic.Scene({
-            //     triggerElement: "#review",
-            //     offset: 0,
-            //     duration: 100,
-            //     triggerHook: 0.3
-            // })
-            // .setTween(gotoMotion4)
-            // .addTo(controller)
-            
-            
-
-            
 
             
 }
