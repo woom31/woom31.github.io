@@ -825,6 +825,12 @@
         top: 160px;
         left: 100vw;
     }
+    .cs-pic5{
+        width: 850px;
+        height: 50vh;
+        top: 45vh;
+        left: 120vw;
+    }
     .cs-title-box {
         display: block;
         position: absolute;
@@ -902,8 +908,14 @@
     }
     .tr-pic4{
         width: 100px;
+        height: 370px;
+        bottom: 0px;
+        left: 100vw;
+    }
+    .tr-pic5{
+        width: 100px;
         height: 400px;
-        top: 400px;
+        top: 200px;
         left: 100vw;
     }
     .tr-title-box {
