@@ -866,7 +866,7 @@
     }
 
     .cs-text {
-        display: block;
+        display: none;
         position: absolute;
         font-size: 26px;
         font-weight: 500;
@@ -928,7 +928,7 @@
     }
 
     .tr-text {
-        display: block;
+        display: none;
         position: absolute;
         font-size: 26px;
         font-weight: 500;
