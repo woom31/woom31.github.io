@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/footer.css">
+
+<div class="footer-wrap">
+    <ul class="footer-nav footer-inner">
+        <li class="nav-list">
+            <ul class="notice-list-set">
+                <li class="notice-list"><a href="#" class="notice-list-btn footer-btn">고객센터</a></li>
+                <li class="notice-list"><a href="#" class="notice-list-btn footer-btn">공지사항</a></li>
+            </ul>
+        </li>
+        <li class="nav-list">
+            <ul class="site-list-set">
+                <li class="site-list footer-list"><a href="#" class="site-list-btn nav-list-btn footer-btn">RIDIPAPER</a></li>
+                <li class="site-list footer-list"><a href="#" class="site-list-btn nav-list-btn footer-btn">제휴카드</a></li>
+                <li class="site-list footer-list"><a href="#" class="site-list-btn nav-list-btn footer-btn">뷰어 다운로드</a></li>
+                <li class="site-list footer-list"><a href="#" class="site-list-btn nav-list-btn footer-btn">리디캐시 충전</a></li>
+            </ul>
+        </li>
+        <li class="nav-list">
+            <ul class="qna-list-set">
+                <li class="qna-list footer-list"><a href="#" class="qna-list-btn nav-list-btn footer-btn">콘텐츠 제공 문의</a></li>
+                <li class="qna-list footer-list"><a href="#" class="qna-list-btn nav-list-btn footer-btn">CP 사이트</a></li>
+                <li class="qna-list footer-list"><a href="#" class="qna-list-btn nav-list-btn footer-btn">사업 제휴 문의</a></li>
+                <li class="qna-list footer-list"><a href="#" class="qna-list-btn nav-list-btn footer-btn">리디셀렉트 B2B</a></li>
+            </ul>
+        </li>
+        <li class="nav-list">
+            <ul class="sns-list-set">
+                <li class="sns-list footer-list"><a href="#" class="sns-list-btn nav-list-btn footer-btn">페이스북</a></li>
+                <li class="sns-list footer-list"><a href="#" class="sns-list-btn nav-list-btn footer-btn">인스타그램</a></li>
+            </ul>
+        </li>
+        <li class="nav-list">
+            <ul class="comp-list-set">
+                <li class="comp-list footer-list"><a href="#" class="comp-list-btn nav-list-btn footer-btn">회사 소개</a></li>
+                <li class="comp-list footer-list"><a href="#" class="comp-list-btn nav-list-btn footer-btn">인재 채용</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="footer-info footer-inner">
+        <button class="info-open-btn" id="info-open-btn">리디(주) 사업자 정보</button>
+        <ul class="info-wrap" id="info-wrap">
+            <li class="info-list">대표자 배기식</li>
+            <li class="info-list">사업자 등록번호 120-87-27435</li>
+            <li class="info-list">통신판매업 신고번호 제 2009-서울강남 35-02139호</li>
+            <li class="info-list">이메일 help@ridi.com</li>
+            <li class="info-list">대표전화 1644-0331</li>
+            <li class="info-list">주소 서울시 강남구 역삼동 702-28 어반벤치빌딩 10층(테헤란로 325)</li>
+        </ul>
+    </div>
+    <div class="footer-menu footer-inner">
+        <p id="copyright">© RIDI Corp.</p>
+        <ul class="menu-list-set">
+            <li class="menu-list"><a href="#" class="menu-list-btn">이용 약관</a></li>
+            <li class="menu-list"><a href="#" class="menu-list-btn"><b>개인 정보 처리 방침</b></a></li>
+            <li class="menu-list"><a href="#" class="menu-list-btn">청소년 보호 정책</a></li>
+            <li class="menu-list"><a href="#" class="menu-list-btn">사업자 정보 확인</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+    var infoBool = false;
+    var infoBtn = document.getElementById('info-open-btn');
+    var infoWrap = document.getElementById('info-wrap');
+    infoBtn.addEventListener('click', function(){
+        if(infoBool == false){
+            infoWrap.style.display = 'flex';
+            infoBool = true;
+        } else {
+            infoWrap.style.display = 'none';
+            infoBool = false;
+        }
+    })
+</script>
