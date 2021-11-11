@@ -1,0 +1,385 @@
+html, body {
+    width: 100%;
+
+}
+
+#wrap {
+    display: block;
+    width: 100%;
+}
+
+header {
+    display: block;
+    width: calc(100% - 380px);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 190px;
+    right: 190px;
+}
+.logo {
+    display: block;
+    width: 130px;
+    height: 32px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    display: block;
+    position: absolute;
+    top: 44px;
+    right: 0;
+}
+.navUl {
+    display: block;
+}
+.navLi {
+    display: inline-block;
+    margin-left: 46px;
+}
+.navLi a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    mix-blend-mode: difference;
+}
+
+.sectionWrap {
+    display: block;
+    width: 100%;
+}
+
+#main {
+    display: block;
+    width: 100%;
+}
+#slogan {
+    display: inline-block;
+    position: absolute;
+    font-size: 96px;
+    font-weight: 900;
+    top: 195px;
+    left: 190px;
+}
+#about {
+    display: flex;
+    width: 100%;
+    margin-top: 360px;
+}
+.aboutLeft {
+    display: block;
+    width: 50%;
+    background-color: #000000;
+}
+.aboutImg {
+    display: block;
+    width: 100%;
+    height: 910px;
+    background-color: #ff9999;
+}
+
+.aboutSub {
+    display: block;
+    width: calc(100% - 190px);
+    padding: 50px 0 80px 190px;
+    color: #ffffff;
+}
+.aboutEdu {
+    display: block;
+}
+.aboutEduTitle {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.aboutEduCon {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
+.aboutEduCon dl {
+    display: block;
+    margin-bottom: 4px;
+}
+.aboutEduCon dl dt {
+    display: inline-block;
+    width: 84px;
+}
+.aboutEduCon dl dd {
+    display: inline-block;
+}
+.aboutContact {
+    display: block;
+    margin-top: 32px;
+}
+.aboutContact ul {
+    display: flex;
+}
+.aboutContact ul li:first-child {
+    display: block;
+    width: 220px;
+}
+.aboutContact ul li:last-child {
+    display: block;
+}
+.aboutContact ul li dl {
+    display: block;
+}
+.aboutContact ul li dl dt {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.aboutContact ul li dl dd {
+    font-size: 20px;
+    font-weight: 400;
+}
+.aboutRight {
+    display: block;
+    width: calc(50% - 46px);
+    padding-left: 46px;
+}
+.aboutTitle {
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 440px;
+}
+.aboutText {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 20px;
+
+}
+.aboutText div {
+    margin-bottom: 24px;
+}
+.aboutText div .bold {
+    font-weight: 700;
+}
+.ability {
+    display: block;
+    width: 100%;
+    height: 980px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.abilityTitle {
+    display: flex;
+    width: calc(100% - 380px);
+    height: 260px;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0 190px 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.abilityCon {
+    display: flex;
+    width: 100%;
+    height: 720px;
+    border-top: 1px solid #ffffff;
+}
+.abilityLeft {
+    display: block;
+    width: 50%;
+    height: 100%;
+    /* border-right: 1px solid #ffffff; */
+}
+.abilityUl {
+    display: block;
+}
+.abilityLi {
+    display: block;
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #ffffff;
+}
+.abilityLi div {
+    display: block;
+    width: 94%;
+    height: 140px;
+    line-height: 180px;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+    opacity: 0.3;
+}
+.abilityLi div.abilitySel {
+    opacity: 1;
+}
+.abilityRight {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+#work {
+    display: block;
+    width: 100%;
+    height: 1080px;
+    background-color: #000000;
+}
+.workWrap {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    padding-top: 180px;
+}
+.workLeft {
+    display: block;
+    width: 640px;
+}
+.workTitle {
+    font-size: 72px;
+    font-weight: 900;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    padding-left: 190px;
+}
+.workUl {
+    display: block;
+    width: 640px;
+}
+.workLi {
+    display: block;
+    width: 450px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 190px;
+    border-bottom: 1px solid #ffffff;
+}
+.workSel {
+    color: #000000;
+    background-color: #ffffff;
+}
+.workRight {
+    display: block;
+    width: calc(100% - 640px);
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#contact {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 910px;
+}
+.contactWrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.contactTop {
+    display: flex;
+    width: 100%;
+    height: 240px;
+    padding-top: 220px;
+}
+.contactLeft {
+    display: block;
+    width: 50%;
+    height: 240px;
+}
+.contactTitle {
+    font-size: 72px;
+    font-weight: 900;
+    color: #000000;
+    padding-left: 190px;
+}
+.contactSub {
+    font-size: 80px;
+    font-weight: 900;
+    color: #000000;
+    padding-left: 190px;
+}
+.contactRight {
+    display: block;
+    width: calc(50% - 240px);
+    height: 240px;
+    padding-left: 50px;
+}
+.contactUl {
+    display: block;
+}
+.contactLi {
+    display: block;
+    width: 45%;
+    float: left;
+    margin-bottom: 28px;
+}
+.contactLi dl {
+    display: block;
+}
+.contactLi dl dt {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.contactLi dl dd {
+    font-size: 28px;
+    font-weight: 400;
+}
+.contactLink {
+    border-bottom: 1px solid #000000;
+}
+.contactBottom {
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-color: #ff9999;
+    background-image: url(../img/bg01.jpg);
+    background-position: 0% 20%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.grayscale {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: #000000;
+    mix-blend-mode: hue; */
+}
+.contactResume {
+    display: block;
+    width: 420px;
+    height: 80px;
+    position: absolute;
+    top: 420px;
+    left: 190px;
+    border: 1px solid #000000;
+}
+.contactResume a {
+    display: block;
+    width: 420px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 600px;
+    background-color: #ffffff;
+}
+.footer {
+    display: block;
+    width: calc(100% - 380px);
+    height: 80px;
+    line-height: 80px;
+    padding: 0 190px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #000000;
+}
