@@ -34,13 +34,13 @@
             <nav>
                 <ul class="nav-ul">
                     <li class="nav-li">
-                        <a href="#main" class="nav-btn">ABOUT</a>
+                        <a href="#main" class="nav-btn">ABOUT<div class="nav-btn-line"></div></a>
                     </li>
                     <li class="nav-li">
-                        <a href="#work" class="nav-btn">WORK</a>
+                        <a href="#work" class="nav-btn">WORK<div class="nav-btn-line"></div></a>
                     </li>
                     <li class="nav-li">
-                        <a href="#contact" class="nav-btn">CONTACT</a>
+                        <a href="#contact" class="nav-btn">CONTACT<div class="nav-btn-line"></div></a>
                     </li>
                 </ul>
             </nav>
@@ -184,51 +184,51 @@
                     <h2 class="work-head">Works</h2>
                     <div class="work-content">
                         <div class="work-box work-box-left">
-                            <a class="work-img-box work-btn">
+                            <a class="work-img-box work-btn" value="0">
                                 <div class="work-img-rotate">
                                     <img src="./img/work/work1.png" alt="" class="work-img">
                                 </div>
                             </a>
                             <div class="work-text">
-                                <a class="work-title work-btn">BOSS LOOP <br class="desktop-br"><br class="tablet-h-br">Promotion Page</a>
+                                <a class="work-title work-btn" value="0">BOSS LOOP <br class="desktop-br"><br class="tablet-h-br">Promotion Page</a>
                                 <div class="line-design"></div>
-                                <div class="work-term">2017.09 ~ 2017.11</div>
+                                <div class="work-role">웹 퍼블리싱 / 모션그래픽 / 뉴미디어 개발</div>
                             </div>
                         </div>
                         <div class="work-box work-box-right">
-                            <a class="work-img-box work-btn">
+                            <a class="work-img-box work-btn" value="1">
                                 <div class="work-img-rotate">
                                     <img src="./img/work/work2.png" alt="" class="work-img">
                                 </div>
                             </a>
                             <div class="work-text">
-                                <a class="work-title work-btn">모바일게임 '인생게임' <br class="desktop-br"><br class="tablet-h-br">소개페이지</a>
+                                <a class="work-title work-btn" value="1">모바일게임 '인생게임' <br class="desktop-br"><br class="tablet-h-br">소개페이지</a>
                                 <div class="line-design"></div>
-                                <div class="work-term">2017.10 ~ 2017.12</div>
+                                <div class="work-role">웹 기획 / 웹 디자인 / 웹 퍼블리싱</div>
                             </div>
                         </div>
                         <div class="work-box work-box-left">
-                            <a class="work-img-box work-btn">
+                            <a class="work-img-box work-btn" value="2">
                                 <div class="work-img-rotate">
                                     <img src="./img/work/work3.png" alt="" class="work-img">
                                 </div>
                             </a>
                             <div class="work-text">
-                                <a class="work-title work-btn">Ctrl+z; 빛났던 밤들</a>
+                                <a class="work-title work-btn" value="2">Ctrl+z; 빛났던 밤들</a>
                                 <div class="line-design"></div>
-                                <div class="work-term">2021.09 ~ 2021.11</div>
+                                <div class="work-role">웹 퍼블리싱 / 웹 모션</div>
                             </div>
                         </div>
                         <div class="work-box work-box-right">
-                            <a class="work-img-box work-btn">
+                            <a class="work-img-box work-btn" value="3">
                                 <div class="work-img-rotate">
                                     <img src="./img/work/work4.png" alt="" class="work-img">
                                 </div>
                             </a>
                             <div class="work-text">
-                                <a class="work-title work-btn">리디북스 타이포그래피 <br class="desktop-br"><br class="tablet-h-br"><br class="mobile-br">리뉴얼 및 메인 클론코딩</a>
+                                <a class="work-title work-btn" value="3">리디북스 타이포그래피 <br class="desktop-br"><br class="tablet-h-br"><br class="mobile-br">리뉴얼 및 메인 클론코딩</a>
                                 <div class="line-design"></div>
-                                <div class="work-term">2017.04 ~ 2017.06</div>
+                                <div class="work-role">타이포그래픽 디자인 / 웹 퍼블리싱</div>
                             </div>
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="contact-download-wrap">
                     <div class="contact-download">
-                        <a href="#" class="contact-download-btn">이력서 / 자기소개서 다운로드</a>
+                        <a href="./file/jeongwoomin_resume.pdf" target="_blank" class="contact-download-btn">이력서 / 자기소개서 다운로드</a>
                     </div>
                 </div>
             </div>
@@ -305,7 +305,39 @@
     </footer>
 
     <div id="portfolio" class="portfolio">
+        <div class="portfolio-header">
+            <div class="portfolio-header-inner">
+                <button class="portfolio-close">X</button>
+            </div>
+        </div>
+        <div class="portfolio-inner">
+            <div class="portfolio-top">
+                <div class="portfolio-bg">
+                    <img src="./img/work/work1.png" class="portfolio-bg-img">
+                    <div class="portfolio-bg-gra"></div>
+                </div>
+                <div class="portfolio-title">
+                    <div class="portfolio-title-inner">
+                        <div class="title-name">BOSS LOOP Promotion Page</div>
+                        <a class="title-btn" href="./work/bossloop/index.html" target="_blank">GO TO THIS PAGE</a>
+                        <div class="title-line-design"></div>
+                        <div class="title-role">웹 퍼블리싱 / 모션그래픽 / 뉴미디어 개발</div>
+                        <div class="title-term">2017.09 ~ 2017.11</div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <div class="portfolio-text">
+                    BOSS사의 'LOOP Station' 프로모션을 위한 뉴미디어 프로젝트를 제작하고, 본 프로젝트를 소개하기 위한 웹 페이지를 제작하였습니다.
+                    사면체의 오브젝트를 이어붙여서 만든 정육면체의 오브젝트에 빔프로젝터를 쏘아 프로젝션 맵핑 방식으로 제작하였고,
+                    발판을 밟아 자신만의 음악을 만든다는 LOOP 제품의 특성을 살려 체험자가 직접 발판을 밟아 오브젝트 위에 다양한 영상과 음향 소스를 쌓아가는 뉴미디어 프로젝트입니다.
+                    웹에서는 어떤 형태의 프로젝트인지 프로젝트의 기획의도, 제작과정 등을 확인할 수 있습니다.
+                </div>
+                <div class="portfolio-description">
 
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./js/script.js"></script>
