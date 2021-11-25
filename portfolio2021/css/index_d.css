@@ -1,15 +1,30 @@
 @media screen and (min-width: 1280px){
 
+    ::-webkit-scrollbar {
+        display: none;
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        /* background: #eeeeee;
+        border-radius: 3px; */
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb {
+        display: none;
+        background: #8800ff;
+        border-radius: 3px;
+    }
+
     .desktop-br {display: block;}
     .tablet-h-br {display: none;}
     .tablet-v-br {display: none;}
     .mobile-br {display: none;}
 
-    html {display: block; width: 100%; overflow-x: hidden;}
+    html {display: block; width: 100%; overflow-x: hidden; overflow-y: auto;}
     body {display: block; width: 100%;}
     .overflow-hidden {display: block; overflow: hidden;}
 
-    header {display: block; width: 100%; height: 80px; position: fixed; z-index: 9999;}
+    header {display: block; width: 100%; height: 80px; position: fixed; z-index: 9998;}
     .header-wrap {display: block; min-width: 1240px; width: calc(100vw - 400px); height: 80px; position: relative; margin: 0 auto; }
     .logo-top {display: block; width: 160px; height: 40px; position: relative; top: 40px;}
     .logo-btn {display: block; width: 100%; height: 100%; position: relative;}
@@ -21,8 +36,9 @@
     .nav-li {display: inline-block; height: 40px; position: relative; margin-left: 40px;}
     .nav-btn {display: block; height: 40px; position: relative; padding: 0 4px; color: #ffffff; font-size: 20px; line-height: 40px; font-weight: 700;}
     .nav-btn:hover {color: #ffffff;}
+    .nav-btn-line {display: block; width: 0; height: 4px; position: absolute; background: #fff; bottom: 2px;}
     
-    section {display: block; width: 100%; position: relative;}
+    section {display: block; width: 100%; position: relative; }
     .section-wrap {display: block; width: 100%; position: relative;}
 
     h2 {display: block; position: relative; font-size: 80px; font-weight: 800; text-transform: uppercase;}
@@ -44,14 +60,14 @@
     .about-wrap {display: block; width: 100%; position: relative;}
     .about-top {display: flex; width: 100%; height: 1050px; position: relative; flex-direction: row;}
     .about-left {display: block; width: 50%; margin: 0 auto; position: relative; background-color: #ffffff;}
-    .about-introduce {display: block; min-width: 620px; width: calc(100% - 200px); position: relative; margin: 0 0 0 auto;}
+    .about-introduce {display: block; min-width: 640px; width: calc(100% - 200px); position: relative; margin: 0 0 0 auto;}
     .about-head {margin-top: 180px;}
     .about-text {display: block; width: calc(100% - 40px); position: relative; margin-top: 66px; font-size: 28px;}
     .about-text-para {display: block; width: 100%; position: relative; margin-top: 32px;}
     .bold {font-weight: 700;}
     .about-right {display: block; width: 50%; position: relative; background-color: #000000; color: #ffffff;}
     .about-img-wrap {display: block; width: 100%; height: 600px; position: relative; overflow: hidden;}
-    .about-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 40% 60%;}
+    .about-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 40% 60%; filter: grayscale(1); -webkit-filter: grayscale(1);}
     .about-career {display: block; width: calc(100% - 40px); height: 520px; position: relative; margin-left: 40px;}
     .about-edu {display: block; width: 100%; margin-top: 40px;}
     /* .about-edu-head {} */
@@ -94,8 +110,8 @@
     .work-box-left .work-title {display: block; position: absolute; bottom: 36px; margin-bottom: 8px; font-size: 48px; font-weight: 700; line-height: 52px;}
     .work-box-right .work-title {display: block; position: absolute; bottom: 36px; margin-bottom: 8px; font-size: 48px; font-weight: 700; line-height: 52px; text-align: right;}
     .work-box .line-design {position: absolute; bottom: 32px;}
-    .work-box-left .work-term {display: block; height: 24px; position: absolute; right: 0; bottom: 0; font-size: 20px;}
-    .work-box-right .work-term {display: block; height: 24px; position: absolute; bottom: 0; left: 0; font-size: 20px;}
+    .work-box-left .work-role {display: block; height: 24px; position: absolute; right: 0; bottom: 0; font-size: 20px; font-weight: 300;}
+    .work-box-right .work-role {display: block; height: 24px; position: absolute; bottom: 0; left: 0; font-size: 20px; font-weight: 300;}
     .work-btn, .work-btn:hover {color: #ffffff;}
     
     #contact {display: block; width: 100%; height: 880px; position: relative;}
@@ -125,5 +141,27 @@
     .footer-insta {right: 60px;}
     .footer-btn {display: block; width: 32px; height: 32px; margin-top: 24px;}
     .footer-btn img {display:block; width: 100%; height: 100%; opacity: 0.7;}
+
+
+    #portfolio {display: none; width: 100%; height: 100vh; position: fixed; top: 0; left: 0; background-color: #333333; z-index: 9999; overflow-x: hidden; overflow-y: visible; opacity: 0;}
+    .portfolio-header {display: block; width: 100%; top:40px; left: 0; position: fixed;  z-index: 9999;}
+    .portfolio-header-inner {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
+    .portfolio-close {display: block; width: 50px; height: 50px; position: absolute; top: 0; right: 0; color: #fff;  background-color: #7f7f7f;}
+    .portfolio-inner {display: block; width: 100%; position: relative; background-color: #000;}
+    .portfolio-top {display: block; width: 100%; height: 100vh; position: relative;}
+    .portfolio-bg {display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; overflow: hidden;}
+    .portfolio-bg img {display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%;}
+    .portfolio-bg-gra {display: block; width: 100%; height: 100%; position: absolute; top: 0; left:0; background: linear-gradient(to bottom, #00000060, #000000);}
+    .portfolio-title {display: block; width: 100%; position: absolute; bottom: 60px; left: 0;}
+    .portfolio-title-inner {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
+    .title-name {display: block; width: 100%; position: relative; color: #fff; font-size: 60px; font-weight: 700;}
+    .title-btn {position: absolute; top: 46px; right: 0; color: #fff; font-size: 20px; font-weight: 300;}
+    .title-btn:hover {color: #999999;}
+    .title-line-design {display: block; width: 100%; height: 4px; margin-top: 8px; margin-bottom: 12px; position: relative; background: #ffffff;}
+    .title-role {display: inline-block; font-size: 24px; color: #fff;}
+    .title-term {display: inline-block; position: absolute; right: 0; font-size: 24px; color: #fff;}
+
+    .portfolio-content {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 60px auto 0; padding-bottom: 80px;}
+    .portfolio-text {display: block; width: 100%; color: #fff; font-size: 32px; font-weight: 300;}
 
 }
