@@ -227,7 +227,8 @@ $(document).ready(function(){
             url: "./work/bossloop/index.html",
             role: "웹 퍼블리싱 / 모션그래픽 / 뉴미디어 개발",
             term: "2017.09 ~ 2017.11",
-            text: "BOSS사의 'LOOP Station' 프로모션을 위한 뉴미디어 프로젝트를 제작하고, 본 프로젝트를 소개하기 위한 웹 페이지를 제작하였습니다. 사면체의 오브젝트를 이어붙여서 만든 정육면체의 오브젝트에 빔프로젝터를 쏘아 프로젝션 맵핑 방식으로 제작하였고, 발판을 밟아 자신만의 음악을 만든다는 LOOP 제품의 특성을 살려 체험자가 직접 발판을 밟아 오브젝트 위에 다양한 영상과 음향 소스를 쌓아가는 뉴미디어 프로젝트입니다. 웹에서는 어떤 형태의 프로젝트인지 프로젝트의 기획의도, 제작과정 등을 확인할 수 있습니다."
+            text: "BOSS사의 'LOOP Station' 프로모션을 위한 뉴미디어 프로젝트를 제작하고, 본 프로젝트를 소개하기 위한 웹 페이지를 제작하였습니다. 사면체의 오브젝트를 이어붙여서 만든 정육면체의 오브젝트에 빔프로젝터를 쏘아 프로젝션 맵핑 방식으로 제작하였고, 발판을 밟아 자신만의 음악을 만든다는 LOOP 제품의 특성을 살려 체험자가 직접 발판을 밟아 오브젝트 위에 다양한 영상과 음향 소스를 쌓아가는 뉴미디어 프로젝트입니다. 웹에서는 어떤 형태의 프로젝트인지 프로젝트의 기획의도, 제작과정 등을 확인할 수 있습니다.",
+            tech: "HTML, CSS, javascript, jQuery, Touch Designer",
         },
         {
             index: 2,
@@ -236,7 +237,8 @@ $(document).ready(function(){
             url: "./work/lifeisagame/index.html",
             role: "웹 기획 / 웹 디자인 / 웹 퍼블리싱",
             term: "2017.10 ~ 2017.12",
-            text: "모바일게임 '인생게임 : Life is a game'의 페이지를 디자인하고 퍼블리싱하였습니다. "
+            text: "모바일게임 '인생게임 : Life is a game'의 페이지를 디자인하고 퍼블리싱하였습니다. ",
+            tech: "HTML, CSS, javascript, jQuery",
         },
         {
             index: 3,
@@ -245,7 +247,8 @@ $(document).ready(function(){
             url: "./work/1212/index.html",
             role: "웹 퍼블리싱 / 웹 모션",
             term: "2021.09 ~ 2021.11",
-            text: "2021학년도 졸업작품으로 제작한 'Ctrl+z ; 빛났던 밤들'의 웹 페이지를 제작하였습니다."
+            text: "2021학년도 졸업작품으로 제작한 'Ctrl+z ; 빛났던 밤들'의 웹 페이지를 제작하였습니다.",
+            tech: "HTML, CSS, javascript, jQuery, GSAP",
         },
         {
             index: 4,
@@ -254,7 +257,8 @@ $(document).ready(function(){
             url: "./work/ridi/index.html",
             role: "타이포그래픽 디자인 / 웹 퍼블리싱",
             term: "2017.04 ~ 2017.06",
-            text: "리디북스만의 새로운 타이포그래픽과 로고타입을 제작하고, 이를 적용한 웹사이트를 제작해보았습니다."
+            text: "리디북스만의 새로운 타이포그래픽과 로고타입을 제작하고, 이를 적용한 웹사이트를 제작해보았습니다.",
+            tech: "HTML, CSS, javascript, jQuery",
         }
     ]
 
@@ -272,6 +276,7 @@ $(document).ready(function(){
         var workRole = workObj[$(this).attr('value')].role;
         var workTerm = workObj[$(this).attr('value')].term;
         var workText = workObj[$(this).attr('value')].text;
+        var workTech = workObj[$(this).attr('value')].tech;
         
         $('.title-name').text(workTitle);
         $('.portfolio-bg-img').attr('src', workBgimg);
@@ -279,6 +284,7 @@ $(document).ready(function(){
         $('.title-role').text(workRole);
         $('.title-term').text(workTerm);
         $('.portfolio-text').text(workText);
+        $('.portfolio-tech-inner').text(workTech);
 
         
     })
