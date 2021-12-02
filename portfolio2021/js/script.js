@@ -265,7 +265,7 @@ $(document).ready(function(){
             index: 3,
             title: "Ctrl+z ; 빛났던 밤들",
             bgimg: "./img/work/work3.png",
-            url: "./work/1212/index.html",
+            url: "https://1212-ctrlz.github.io/",
             role: "웹 퍼블리싱 / 웹 모션",
             term: "2021.09 ~ 2021.11",
             text: "2021학년도 졸업작품으로 제작한 'Ctrl+z ; 빛났던 밤들'의 웹 페이지를 제작하였습니다. GreenSock 라이브러리와 ScrollMagic 플러그인을 이용하여 스크롤 애니메이션을 구현하였고, sticky 요소를 통해 header UI를 구현했습니다. 기획 페이지에서는 기획의도와 VR로 구현한 프로젝트의 모습들을 확인할 수 있으며, 체험 페이지에서는 VR에서의 행동을 마우스 액션으로 구현하여 간접적으로 프로젝트를 체험할 수 있습니다.",
