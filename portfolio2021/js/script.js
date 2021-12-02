@@ -243,7 +243,7 @@ $(document).ready(function(){
             index: 1,
             title: "BOSS LOOP Promotion Page",
             bgimg: "./img/work/work1.png",
-            url: "./work/bossloop/index.html",
+            url: "https://woom31.github.io/bossloop/",
             role: "웹 퍼블리싱 / 모션그래픽 / 뉴미디어 개발",
             term: "2017.09 ~ 2017.11 / 2021.09 ~ 2021.10",
             text: "BOSS사의 'LOOP Station' 프로모션을 위한 뉴미디어 프로젝트를 제작하고, 본 프로젝트를 소개하기 위한 웹 페이지를 제작하였습니다. 사면체의 오브젝트를 이어붙여서 만든 정육면체의 오브젝트에 빔프로젝터를 쏘아 프로젝션 맵핑 방식으로 제작하였고, 발판을 밟아 자신만의 음악을 만든다는 LOOP 제품의 특성을 살려 체험자가 직접 발판을 밟아 오브젝트 위에 다양한 영상과 음향 소스를 쌓아가는 뉴미디어 프로젝트입니다. 웹에서는 어떤 형태의 프로젝트인지 프로젝트의 기획의도, 제작과정 등을 확인할 수 있습니다.",
