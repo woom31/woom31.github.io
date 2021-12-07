@@ -4,7 +4,7 @@ $('.main-prev').click(function(){
         mainNum--;
         console.log(mainNum);
         $('.slide-number-now').text(mainNum);
-        $('.slide-set').stop().animate({'margin-left':-427 * mainNum + 'px'}, 00);
+        $('.slide-set').stop().animate({'margin-left':-427 * mainNum + 'px'}, 100);
         $('.slide-list').removeClass('slide-list-sel');
         $('.slide-list').eq(mainNum + 1).addClass('slide-list-sel');
     } else if(mainNum == 1) {
