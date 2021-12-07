@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리디북스</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/libs/jquery-3.6.0.min.js"></script>
+    <script src="./js/libs/jquery-ui.min.js"></script>
+    <!-- <link rel=" shortcut icon" href="./img/favicon.ico">
+    <link rel="icon" href="./img/favicon.ico"> -->
+
+</head>
+<body>
+    <header></header>
+    <script>$("header").load("./header.html");</script>
+
+    <div id="wrap">
+        <section class="slide">
+            <div class="slide-wrap">
+                <ul class="slide-set">
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide7.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list slide-list-sel"> 
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide4.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide5.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide7.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list"> 
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="slide-list">
+                        <a href="#" class="slide-btn">
+                            <img src="./img/slide_img/slide2.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="slide-control-list">
+                    <div class="slide-number"><span class="slide-number-now">1</span> / 7</div>
+                    <button class="slide-control slide-prev main-prev">PREV</button>
+                    <button class="slide-control slide-next main-next">NEXT</button>
+                </div>
+            </div>
+        </section>
+        <section class="today inner">
+            <div class="today-wrap inner-wrap">
+                <div class="inner-title today-title">
+                    <h2>오늘, 리디의 발견</h2>
+                </div>
+                <div class="inner-container today-container">
+                    <div class="today-slide">
+                        <ul class="today-slide-set">
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/1.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        내가 사는 세상은<br>스노우볼 속이야.
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/2.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        패트릭 베일 삽화<br>110여컷 수록
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/3.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        푸름아빠<br>거울육아 실전편
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/4.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        무심코 지나쳤던<br>'나'를 발견하는 일
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/5.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        콜슨 화이트헤드<br>신작 장편소설
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/6.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        한 권으로 읽는<br>하버드 자연사 강의
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/7.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        그럼에도 불구하고<br>끝내 피어나길
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/8.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        지구에서 일하는 게<br>적성에 안 맞아요
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/9.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        30살 투자 천재의<br>7가지 성공 습관
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/10.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        제11회<br>혼불문학상 수상작
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/11.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        우리는 모두<br>빛이 나는 별★
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="today-slide-list">
+                                <div class="today-box">
+                                    <div class="today-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/12.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="today-box-title">
+                                        팬데믹 이후 세상을<br>지배할 패러다임
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="normal-slide-control">
+                        <button class="normal-control today-prev">PREV</button>
+                        <button class="normal-control today-next">NEXT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best inner">
+            <div class="best-wrap inner-wrap">
+                <div class="inner-title best-title">
+                    <a href="#">
+                        <h2>베스트셀러 ></h2>
+                    </a>
+                </div>
+                <div class="inner-container best-container">
+                    <div class="best-inner">
+                        <ul class="best-set">
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/1.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">1</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    듄 시리즈 1권
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    프랭크 허버트
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">116</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/2.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">2</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    지구 끝의 온실
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    김초엽
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">40</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/3.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">3</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    그냥 하지 말라
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    송길영
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">127</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="best-set">
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/4.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">4</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    NFT 레볼루션
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="writer-btn">
+                                                    성소라
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">35</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/5.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">5</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    합리적 남자
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    롤로 토마시
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">26</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/6.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">6</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    트렌드 코리아 2022
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    김난도
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">58</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="best-set">
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/7.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">7</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    왜 살아야 하는가
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    미하엘 하우스켈러
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">82</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/8.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">8</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    사경인의 친절한 투자 과외
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    사경인
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">25</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="best-list">
+                                <div class="best-box">
+                                    <div class="best-box-img">
+                                        <a class="book-img-btn">
+                                            <img src="./img/book_img/best/9.webp" alt="" class="best-img">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <div class="best-num">9</div>
+                                        <div class="best-text-inner">
+                                            <div class="best-text-title">
+                                                <a href="" class="title-btn">
+                                                    달러구트 꿈 백화점 2
+                                                </a>
+                                            </div>
+                                            <div class="best-text-writer">
+                                                <a href="" class="title-btn">
+                                                    이미예
+                                                </a>
+                                            </div>
+                                            <div class="best-text-rate">
+                                                <div class="best-text-star"></div>
+                                                <div class="best-text-review">74</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new inner">
+            <div class="new-wrap inner-wrap">
+                <div class="inner-title new-title">
+                    <h2>금주의 신간</h2>
+                </div>
+                <div class="inner-container new-container">
+                    <div class="new-slide normal-slide">
+                        <ul class="new-slide-set normal-slide-set">
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/12.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">거대한 가속</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">스콧 갤러웨이</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/11.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">작은 별이지만<br>빛나고 있어</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">소윤</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/10.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">플라멩코 추는 남자</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">허태연</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/9.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">나는 투자로<br>30년을 벌었다</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">한정수</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/8.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">재능의 불시착</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">박소연</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/7.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">안녕, 소중한 사람</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">정한경</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/6.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">지구의 짧은 역사</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">앤드류 H. 놀</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/5.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">할렘 셔플</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">콜슨 화이트헤드</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/4.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">취향의 기쁨</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">권예슬</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/3.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">나의 상처를 아이에게<br>대물림하지 않으려면</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">김유라</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/2.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">도시의 보이지 않는 99%</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">로먼 마스</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="new-slide-list normal-slide-list">
+                                <div class="new-box normal-box">
+                                    <div class="new-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/today/1.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="new-box-title">
+                                        <a href="#" class="book-title-btn">스노우볼 아가씨</a>
+                                    </h3>
+                                    <div class="new-box-writer">
+                                        <a href="#" class="book-writer-btn">류희묵</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="normal-slide-control">
+                        <button class="normal-control new-prev">PREV</button>
+                        <button class="normal-control new-next">NEXT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recommand inner">
+            <div class="recommand-wrap inner-wrap">
+                <div class="inner-title recommand-title">
+                    <h2>리디북스 추천도서</h2>
+                </div>
+                <div class="inner-container recommand-container">
+                    <div class="recommand-slide normal-slide">
+                        <ul class="recommand-slide-set normal-slide-set">
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/10.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">천 개의 파랑</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">천선란</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/9.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">달러구트 꿈 백화점 2</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">이미예</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/8.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">사경인의 친절한 투자 과외</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">사경인</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/7.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">왜 살아야 하는가</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">미하엘 하우스켈러</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/6.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">트렌드 코리아 2022</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">김난도</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/5.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">합리적 남자</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">롤로 토마시</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/4.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">NFT 레볼루션</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">성소라</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/3.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">그냥 하지 말라</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">송길영</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/2.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">지구 끝의 온실</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">김초엽</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="recommand-slide-list normal-slide-list">
+                                <div class="recommand-box normal-box">
+                                    <div class="recommand-box-img normal-box-img">
+                                        <a href="#" class="book-img-btn">
+                                            <img src="./img/book_img/best/1.webp" alt="">
+                                            <div class="hover-black"></div>
+                                        </a>
+                                    </div>
+                                    <h3 class="recommand-box-title">
+                                        <a href="#" class="book-title-btn">듄 시리즈</a>
+                                    </h3>
+                                    <div class="recommand-box-writer">
+                                        <a href="#" class="book-writer-btn">프랭크 허버트</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="normal-slide-control">
+                        <button class="normal-control recommand-prev">PREV</button>
+                        <button class="normal-control recommand-next">NEXT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer></footer>
+    <script>$("footer").load("./footer.html");</script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
