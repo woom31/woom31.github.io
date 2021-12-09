@@ -28,8 +28,8 @@
     body {display: block; width: 100%;}
     .overflow-hidden {display: block; overflow: hidden;}
 
-    header {display: block; width: 100%; height: 80px; position: fixed; z-index: 9998;}
-    .header-wrap {display: block; min-width: 1240px; width: calc(100vw - 400px); height: 80px; position: relative; margin: 0 auto; }
+    header {display: block; width: 100%;  position: fixed; z-index: 9998;}
+    .header-wrap {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
     .logo-top {display: block; width: 160px; height: 40px; position: relative; top: 40px;}
     .logo-btn {display: block; width: 100%; height: 100%; position: relative;}
     .logo-img {display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
@@ -70,7 +70,25 @@
     .bold {font-weight: 700; position: relative;}
     .about-right {display: block; width: 50%; position: relative; background-color: #000000; color: #ffffff;}
     .about-img-wrap {display: block; width: 100%; height: 600px; position: relative; overflow: hidden;}
-    .about-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 40% 60%; filter: grayscale(1); -webkit-filter: grayscale(1);}
+    .about-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 40% 60%; filter: grayscale(1); -webkit-filter: grayscale(1); transition: all 0.4s;}
+    .about-img-wrap:hover .about-img {filter: grayscale(0); -webkit-filter: grayscale(0); transition: all 0.4s;}
+    .profile-img-text {display: block; position: absolute; overflow: hidden; transition: all 1s;}
+    .profile-text1 {bottom: 80%; left: 52%;}
+    .profile-text2 {bottom: 68%; right: 55%;}
+    .profile-text3 {bottom: 60%; left: 55%;}
+    .profile-text4 {bottom: 3%; right: 35%;}
+    
+    .profile-text1 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; left: -100%; transition: all 0.3s;}
+    .profile-text2 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; right: -100%; transition: all 0.3s;}
+    .profile-text3 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; left: -100%; transition: all 0.3s;}
+    .profile-text4 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; right: -100%; transition: all 0.3s;}
+    .about-img-wrap:hover .profile-text1 .profile-text-inner {left: 0; transition: all 0.6s;}
+    .about-img-wrap:hover .profile-text2 .profile-text-inner {right: 0; transition: all 0.6s;}
+    .about-img-wrap:hover .profile-text3 .profile-text-inner {left: 0; transition: all 0.6s;}
+    .about-img-wrap:hover .profile-text4 .profile-text-inner {right: 0; transition: all 0.6s;}
+    
+    .about-img-imoji {display: none; width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 40% 60%; transform: scale(0); transform-origin: 50% 25%; transition: all 0.4s;}
+    .about-img-wrap:hover .about-img-imoji {transform: scale(1); transition: all 0.4s;}
     .about-career {display: block; width: calc(100% - 40px); height: 520px; position: relative; margin-left: 40px;}
     .about-edu {display: block; width: 100%; margin-top: 40px;}
     /* .about-edu-head {} */
@@ -131,7 +149,7 @@
     .contact-link {border-bottom: 2px solid #333333; padding-right: 3px;}
     .contact-bottom {display: block; width: 100%; height: 50%; position: relative; z-index: -1;}
     .contact-bottom-img {display: block; width: 100%; height: 100%; position: relative; overflow: hidden;}
-    .contact-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 50% 20%;}
+    .contact-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 50% 48%; filter: brightness(0.8); -webkit-filter: brightness(0.8);}
     .contact-download-wrap {display: block; width: 100%; height: 70px; position: absolute; top: calc(50% - 35px);}
     .contact-download {display: block; min-width: 1240px; width: calc(100% - 400px);  height: 70px; position: relative; margin: 0 auto;  line-height: 70px; font-size: 20px;}
     /* .contact-download-btn {display: block; width: 356px; height: 66px; border: 2px solid #7f7f7f; background-color: #ffffff; text-align: center;} */
@@ -209,16 +227,21 @@
     .portfolio-header {display: block; width: 100%; top:40px; left: 0; position: fixed;  z-index: 9999;}
     .portfolio-header-inner {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
     .portfolio-close {display: block; width: 50px; height: 50px; position: absolute; top: 0; right: 0;  }
+    .title-btn {position: absolute; top: 10px; right: 62px; color: #fff; font-size: 20px; font-weight: 300;}
+    .title-btn:hover {color: #888888;}
+    .portfolio-btn-line {display: block; position:absolute; width: 0%; height: 2px; background-color: #ffffff; transition: all 0.3s;}
+    .title-btn:hover .portfolio-btn-line {display: block; position:absolute; width: 100%; height: 2px; background-color: #888888; transition: all 0.3s;}
+    
+
     .portfolio-inner {display: block; width: 100%; position: relative; background-color: #000;}
-    .portfolio-top {display: block; width: 100%; height: 100vh; position: relative;}
-    .portfolio-bg {display: block; width: 100%; height: 100%; top: 0; left: 0; position: absolute; overflow: hidden;}
+    .portfolio-top {display: block; width: 100%; position: relative;}
+    .portfolio-bg {display: block; width: 100%; height: 100vh; top: 0; left: 0; position: relative; overflow: hidden;}
     .portfolio-bg img {display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%;}
     .portfolio-bg-gra {display: block; width: 100%; height: 100%; position: absolute; top: 0; left:0; background: linear-gradient(to bottom, #00000060, #000000);}
     .portfolio-title {display: block; width: 100%; position: absolute; bottom: 60px; left: 0;}
     .portfolio-title-inner {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
     .title-name {display: block; width: 100%; position: relative; color: #fff; font-size: 60px; font-weight: 700;}
-    .title-btn {position: absolute; top: 46px; right: 0; color: #fff; font-size: 20px; font-weight: 300;}
-    .title-btn:hover {color: #999999;}
+    
     .title-line-design {display: block; width: 100%; height: 4px; margin-top: 8px; margin-bottom: 12px; position: relative; background: #ffffff;}
     .title-role {display: inline-block; font-size: 24px; color: #fff;}
     .title-term {display: inline-block; position: absolute; right: 0; font-size: 24px; color: #fff;}
