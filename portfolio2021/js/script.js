@@ -23,22 +23,27 @@ $(document).ready(function(){
             $(".logo-img-bk").css({'opacity':'0'});
             $(".logo-img-wt").css({'opacity':'1'});
             $(".nav-btn").css({'color':'#ffffff'});
+            $(".nav-btn-line").css({'background-color':'#ffffff'});
         } else if(scroll >= aboutTop - 50 && scroll < aboutBottom) {
             $(".logo-img-bk").css({'opacity':'1'});
             $(".logo-img-wt").css({'opacity':'0'});
             $(".nav-btn").css({'color':'#ffffff'});
+            $(".nav-btn-line").css({'background-color':'#ffffff'});
         } else if(scroll >= abilityTop - 50 && scroll < abilityBottom) {
             $(".logo-img-bk").css({'opacity':'0'});
             $(".logo-img-wt").css({'opacity':'1'});
             $(".nav-btn").css({'color':'#ffffff'});
+            $(".nav-btn-line").css({'background-color':'#ffffff'});
         } else if(scroll >= workTop - 50 && scroll < workBottom) {
             $(".logo-img-bk").css({'opacity':'0'});
             $(".logo-img-wt").css({'opacity':'1'});
             $(".nav-btn").css({'color':'#ffffff'});
+            $(".nav-btn-line").css({'background-color':'#ffffff'});
         } else if(scroll >= contactTop - 50 && scroll < contactBottom) {
             $(".logo-img-bk").css({'opacity':'1'});
             $(".logo-img-wt").css({'opacity':'0'});
             $(".nav-btn").css({'color':'#000000'});
+            $(".nav-btn-line").css({'background-color':'#000000'});
         } 
     };
     headerColor();
