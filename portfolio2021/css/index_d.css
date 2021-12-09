@@ -78,10 +78,10 @@
     .profile-text3 {bottom: 60%; left: 55%;}
     .profile-text4 {bottom: 3%; right: 35%;}
     
-    .profile-text1 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; left: -100%; transition: all 0.3s;}
-    .profile-text2 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; right: -100%; transition: all 0.3s;}
-    .profile-text3 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; left: -100%; transition: all 0.3s;}
-    .profile-text4 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #000000; top: 0; right: -100%; transition: all 0.3s;}
+    .profile-text1 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #00000080; top: 0; left: -100%; transition: all 0.3s;}
+    .profile-text2 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #00000080; top: 0; right: -100%; transition: all 0.3s;}
+    .profile-text3 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #00000080; top: 0; left: -100%; transition: all 0.3s;}
+    .profile-text4 .profile-text-inner {display: block; height: 36px; line-height: 36px; position: relative; padding: 0 12px; font-size: 20px; background-color: #00000080; top: 0; right: -100%; transition: all 0.3s;}
     .about-img-wrap:hover .profile-text1 .profile-text-inner {left: 0; transition: all 0.6s;}
     .about-img-wrap:hover .profile-text2 .profile-text-inner {right: 0; transition: all 0.6s;}
     .about-img-wrap:hover .profile-text3 .profile-text-inner {left: 0; transition: all 0.6s;}
