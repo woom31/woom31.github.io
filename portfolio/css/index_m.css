@@ -1,0 +1,130 @@
+@media screen and (max-width: 767px){
+
+    
+    .desktop-br {display: none;}
+    .tablet-h-br {display: none;}
+    .tablet-v-br {display: none;}
+    .mobile-br {display: block;}
+
+    html {display: block; width: 100%; overflow-x: hidden;}
+    body {display: block; width: 100%;}
+    .overflow-hidden {display: block; overflow: hidden;}
+
+    header {display: block; width: 100%; height: 80px; position: fixed; z-index: 9999;}
+    .header-wrap {display: block; width: calc(100% - 48px); height: 70px; position: relative; margin: 0 auto; }
+    .logo-top {display: block; width: 120px; height: 30px; position: relative; top: 40px;}
+    .logo-btn {display: block; width: 100%; height: 100%; position: relative;}
+    .logo-img {display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+    .logo-img-bk {display: block; opacity: 0;}
+    .logo-img-wt {display: block; opacity: 1;}
+    nav {display: block; height: 40px; position: absolute; top: 35px; right: 0px;}
+    .nav-ul {display: block; height: 40px; position: relative; text-align: right;}
+    .nav-li {display: block; height: 35px; position: relative;}
+    .nav-btn {display: block; height: 35px; position: relative; padding: 0 4px; color: #ffffff; font-size: 16px; line-height: 35px; font-weight: 600;}
+    .nav-btn:hover {color: #ffffff;}
+    
+    section {display: block; width: 100%; position: relative;}
+    .section-wrap {display: block; width: 100%; position: relative;}
+
+    h2 {display: block; position: relative; font-size: 48px; font-weight: 800; text-transform: uppercase;}
+    h3 {display: block; position: relative; font-size: 24px; font-weight: 700; }
+    .line-design {display: block; width: 100%; height: 2px; position: relative; background-color: #ffffff; }
+
+    
+    #main {display: block; width: 100%; height: 100vh; position: relative;}
+    .main-wrap {display: flex; width: 100%; height: 100%; position: relative; flex-direction: column;}
+    .main-left {display: block; width: 100%; height: 45%; position: relative;}
+    .main-img {display: block; width: 100%; height: 100%; position: relative;}
+    .main-img-box {display: block; width: 100%; height: 100%; position: relative; overflow: hidden;}
+    .main-img {display: block; width: 200%; position: absolute; right: 0%; object-fit: cover; filter:grayscale(1) opacity(0.9) brightness(0.4); transform-origin: 100% 50%; transform: scale(1);}
+    .main-right {display: block; width: 100%; height: 55%; position: relative; background-color: #000000;}
+    .main-slogan {display: flex; flex-direction: column; width: calc(100% - 48px); height: 100%; justify-content: center; position: relative; margin: 0 auto; color: #ffffff; font-size: 11vw; font-weight: 900; overflow: hidden;}
+    .main-slogan p {display: block; transform: translate(0, 0);}
+
+    #about {display: block; width: 100%; position: relative;}
+    .about-wrap {display: block; width: 100%; position: relative;}
+    .about-top {display: flex; width: 100%; position: relative; flex-direction: column;}
+    .about-left {display: block; width: 100%; margin: 0 auto; position: relative; background-color: #ffffff;}
+    .about-introduce {display: block; width: calc(100% - 48px); position: relative; margin: 0 auto;}
+    .about-head {margin-top: 80px; text-align: right;}
+    .about-text {display: block; width: 100%; position: relative; margin-top: 12px; font-size: 18px; line-height: 26px;}
+    .about-text-para {display: block; width: 100%; position: relative; margin-top: 12px;}
+    .bold {font-weight: 700;}
+    .about-right {display: block; width: 100%; position: relative; background-color: #000000; color: #ffffff; margin-top: 40px;}
+    .about-img-wrap {display: block; width: 100%; height: 240px; position: relative; overflow: hidden;}
+    .about-img {width: 120%; height: 120%; object-fit: cover; position:absolute; object-position: 40% 40%; margin-left: -10%;}
+    .about-career {display: block; width: calc(100% - 48px); position: relative; margin: 0 auto;}
+    .about-edu {display: block; width: 100%; margin-top: 30px;}
+    /* .about-edu-head {} */
+    .about-edu-content {display: block; width: 100%; margin-top: 12px;}
+    .about-award {display: block; width: 100%; margin-top: 30px; text-align: right;}
+    /* .about-award-head {} */
+    .about-award-content {display: block; width: 100%; margin-top: 12px;}
+    .about-career dl {display: flex; width: 100%; position: relative; margin-top: 12px; flex-direction: column;}
+    .about-career dl dt {display: block; font-size: 16px; margin-bottom: 4px;}
+    .about-career dl dd {display: block;  font-size: 16px;}
+
+    .about-bottom {display: block; width: 100%; position: relative; background-color: #000000; padding: 40px 0;}
+    .ability {display: block; width: calc(100% - 48px); height: 100%; position: relative; margin: 0 auto; padding-top: 80px; color: #ffffff;}
+    .ability-head {text-transform: uppercase;}
+    .ability-content {display: flex; width: 100%; position: relative; margin-top: 32px; flex-direction: column; flex-wrap: wrap; }
+    .ability-box {display: block; width: 100%; position: relative;}
+    .ability-box:nth-child(n) {margin: 0 0 60px 0;}
+    .ability-box:nth-child(2n) {margin: 0 0 60px 0;}
+    .ability-box-head {display: block; width: 100%; position: relative; margin-bottom: 8px; font-size: 20px; font-weight: 600; }
+    .ability-box-text {display: block; width: 100%; position: relative; margin-top: 8px; font-size: 16px; font-weight: 300; letter-spacing: 0.6px; line-height: 28px;}
+
+    #skit-animate {display: none; width: 100%; height: 450px; position: relative;}
+
+    #work {display: block; width: 100%; position: relative; background-color: #000000; color: #ffffff; padding: 40px 0;}
+    .work-wrap {display: block; width: calc(100% - 48px); position: relative;  padding-top: 0; margin: 0 auto;}
+    .work-head {color: #ffffff;}
+    .work-content {display: block; width: 100%; position: relative; margin-top: 40px;}
+    .work-box {display: block; width: 100%; position: relative; margin-bottom: 80px;}
+    .work-img-box {display: block; width: 100%; position: relative; z-index: 1;}
+    .work-img-rotate {display: block; width: 100%; position: relative; background-color: violet;}
+    .work-img {display: block; width: 100%; height: 100%; position: relative; object-fit: fill; filter: grayscale(1) brightness(0.8); -webkit-filter: grayscale(1) brightness(0.8);}
+    .work-box-left .work-img-box {left: 0;}
+    .work-box-right .work-img-box {right: 0;}
+    .work-box-left .work-img-rotate {transform-origin: 0% 50%; transform: perspective(640px) rotateY(0deg)}
+    .work-box-right .work-img-rotate {transform-origin: 90% 50%; transform: perspective(640px) rotateY(0deg)}
+    /* .work-box-left .work-img-rotate:hover {transition: all 500ms cubic-bezier(0.320, 1.000, 0.320, 1.000); transform-origin: 0% 50%; transform: perspective(640px) rotateY(0deg);}
+    .work-box-right .work-img-rotate:hover {transition: all 500ms cubic-bezier(0.320, 1.000, 0.320, 1.000); transform-origin: 100% 50%; transform: perspective(640px) rotateY(0deg);} */
+    .work-box-left .work-text {display: block; width: 100%; position: relative;  z-index: 2; margin-top: 16px;}
+    .work-box-right .work-text {display: block; width: 100%; position: relative;  z-index: 2; margin-top: 16px;}
+    .work-box-left .work-title {display: block; position: relative; margin-bottom: 8px; font-size: 6vw; font-weight: 700; line-height: 7vw;}
+    .work-box-right .work-title {display: block; position: relative; margin-bottom: 8px; font-size: 6vw; font-weight: 700; line-height: 7vw;}
+    .work-box .line-design {position: relative; margin-bottom: 8px;}
+    .work-box-left .work-term {display: block; height: 24px; position: relative; font-size: 3vw; text-align: right;}
+    .work-box-right .work-term {display: block; height: 24px; position: relative; font-size: 3vw; text-align: right;}
+    .work-btn, .work-btn:hover {color: #ffffff;}
+    
+    #contact {display: block; width: 100%; height: 90vh; position: relative;}
+    .contact-wrap {display: flex; position: relative; width: 100%; height: 100%; flex-direction: column;}
+    .contact-top {display: block; width: calc(100% - 48px); height: 65%; position: relative; margin: 0 auto; background-color: #fff;}
+    .contact-left {display: block; width: 100%; position: relative; margin-top: 100px;}
+    .contact-title {display: block; width: 100%; font-size: 10vw; font-weight: 900; margin-top: 12px;}
+    .contact-right {display: block; width: 100%; position: relative; right: 0; margin-left: auto; margin-top: 48px;}
+    .contact-ul {display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;}
+    .contact-li {display: block; width: 50%;}
+    .contact-li dl {display: block; width: 100%; margin-bottom: 24px;}
+    .contact-li dl dt {display: block; width: 100%; font-size: 20px; font-weight: 600;}
+    .contact-li dl dd {display: block; width: 100%; font-size: 16px; font-weight: 300; margin-top: 4px;}
+    .contact-link {border-bottom: 1px solid #333333; padding-right: 3px;}
+    .contact-bottom {display: block; width: 100%; height: 35%; position: relative; z-index: -1;}
+    .contact-bottom-img {display: block; width: 100%; height: 100%; position: relative; overflow: hidden;}
+    .contact-img {width: 100%; height: 100%; object-fit: cover; position:absolute; object-position: 50% 20%;}
+    .contact-download-wrap {display: block; width: 100%; height: 60px; position: absolute; top: calc(65% - 30px);}
+    .contact-download {display: block; width: calc(100% - 48px);  height: 60px; position: relative; margin: 0 auto;  line-height: 60px; font-size: 16px;}
+    .contact-download-btn {display: block; width: 100%; height: 56px; position: relative; border: 2px solid #7f7f7f; background-color: #ffffff; text-align: center;}
+
+    footer {display: block; width: 100%; height: 60px; position: relative; background-color: #000000;}
+    .footer-wrap {display: block; width: calc(100% - 48px); height: 60px; position: relative; margin: 0 auto;}
+    .copyright {display: block; width: 100%; height: 60px; position: absolute; color: #7f7f7f; font-size: 12px; line-height: 60px;}
+    .footer-link {display: block; height: 60px; position: absolute; right: 0;}
+    .footer-box {display: block; height: 60px; position: absolute; right: 0;}
+    .footer-insta {right: 40px;}
+    .footer-btn {display: block; width: 24px; height: 24px; margin-top: 18px;}
+    .footer-btn img {display:block; width: 100%; height: 100%; opacity: 0.7;}
+
+}
