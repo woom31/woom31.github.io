@@ -152,7 +152,7 @@
     .title-term {display: inline-block; position: absolute; right: 0; font-size: 12px; color: #fff;}
 
     .portfolio-content {display: block; width: calc(100% - 48px); position: relative; margin: 20px auto 0; padding-bottom: 80px;}
-    .portfolio-text {display: block; width: 1240px; color: #fff; font-size: 16px; font-weight: 300; margin-bottom: 40px; line-height: 33px;}
+    .portfolio-text {display: block; width: 100%; color: #fff; font-size: 16px; font-weight: 300; margin-bottom: 40px; line-height: 33px;}
     .portfolio-tech {display: flex; width: 100%; color: rgb(199, 199, 199); font-size: 12px; font-weight: 300; margin-bottom: 64px;}
     .portfolio-tech-sub {display: block; font-weight: 600; margin-right: 24px;}
 
@@ -161,7 +161,7 @@
     .portfolio-slider ul li {display: flex; width: 100%; position: relative; margin-top: 12px; flex-direction: column;}
     .portfolio-img {display: block; width: calc(100% - 2px); border: 1px solid #ffffff;}
     .portfolio-img img {width: 100%;}
-    .portfolio-description {display: grid; width: 100%; margin-left: 24px; color: #fff; font-size: 16px; line-height: 28px; padding: 12px 0; align-items: flex-end;}
+    .portfolio-description {display: grid; width: 100%; color: #fff; font-size: 16px; line-height: 24px; padding: 12px 0; align-items: flex-end;}
     
     
 }
