@@ -144,7 +144,7 @@
     .portfolio-bg img {display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%;}
     .portfolio-bg-gra {display: block; width: 100%; height: 100%; position: absolute; top: 0; left:0; background: linear-gradient(to bottom, #00000060, #000000);}
     .portfolio-title {display: block; width: 100%; position: absolute; bottom: 60px; left: 0;}
-    .portfolio-title-inner {display: block; min-width: 1240px; width: calc(100vw - 400px); position: relative; margin: 0 auto; }
+    .portfolio-title-inner {display: block; width: calc(100% - 48px); position: relative; margin: 0 auto; }
     .title-name {display: block; width: 100%; position: relative; color: #fff; font-size: 20px; font-weight: 700;}
     
     .title-line-design {display: block; width: 100%; height: 4px; margin-top: 8px; margin-bottom: 12px; position: relative; background: #ffffff;}
@@ -158,10 +158,10 @@
 
     .portfolio-slider {display: block; width: 100%; position: relative;}
     .portfolio-slider ul {display: block; width: 100%; position: relative;}
-    .portfolio-slider ul li {display: flex; width: 100%; position: relative; margin-top: 12px;}
-    .portfolio-img {display: block; width: 640px; border: 1px solid #ffffff;}
+    .portfolio-slider ul li {display: flex; width: 100%; position: relative; margin-top: 12px; flex-direction: column;}
+    .portfolio-img {display: block; width: calc(100% - 2px); border: 1px solid #ffffff;}
     .portfolio-img img {width: 100%;}
-    .portfolio-description {display: grid; width: calc(100% - 640px); margin-left: 24px; color: #fff; font-size: 20px; line-height: 28px; padding: 12px 0; align-items: flex-end;}
+    .portfolio-description {display: grid; width: 100%; margin-left: 24px; color: #fff; font-size: 16px; line-height: 28px; padding: 12px 0; align-items: flex-end;}
     
     
 }
